@@ -3,6 +3,7 @@ using DNUStudyPlanner.Data;
 using DNUStudyPlanner.Services;
 using DotNetEnv; 
 using DNUStudyPlanner.Configuration;
+
 Env.Load(); 
 var builder = WebApplication.CreateBuilder(args); 
 builder.Services.Configure<SmtpSettings>(
